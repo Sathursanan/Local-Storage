@@ -1,6 +1,6 @@
 function saveName() {
     var name = document.getElementById("nameInput").value;
-    localStorage.setItem('enterName' , name);
+    localStorage.setItem('enterName' ,name);
    
 }
 
@@ -12,7 +12,7 @@ function getName () {
 
 function clearStorage () {
     var clear = localStorage.clear();
-    document.getElementById('output').innerHTML="Names are cleared"
+    document.getElementById('output').innerHTML="Names are cleared";
 
     
 }
